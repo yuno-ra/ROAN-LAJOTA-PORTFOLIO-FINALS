@@ -446,9 +446,22 @@ section {
 }
 
 
-@media (max-width: 991px) {
-    header { padding: 15px 5%; }
-    section { padding: 90px 5% 30px; }
-    .home { flex-direction: column-reverse; text-align: center; }
-    .circle-container { width: 250px; height: 250px; margin: 0 auto; }
+@media (max-width: 768px) {
+    .home {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .home-content h1 {
+        font-size: 32px;
+    }
+
+    .home-content p {
+        max-width: 100%;
+    }
+
+    .circle-container {
+        width: 250px;
+        height: 250px;
+    }
 }
